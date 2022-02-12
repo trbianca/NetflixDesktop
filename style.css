@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300&family=Montserrat:wght@100;400;500&family=Padauk:wght@700&family=Playfair+Display:wght@700&family=Poppins:wght@200&family=Righteous&family=Roboto:wght@300;900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;;
+}
+
+.container-header{
+    width: 100%;
+    height: 10vh;
+    background-color: black; 
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: fixed;
+}
+
+.logo{
+    width: 8vw;
+    height: 5vh;
+}
+
+.container-header-ul{
+    width: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-header-ul li:hover a{
+    color: red;
+}
+
+.li-header a{
+    text-decoration: none;
+}
+
+
+.container-header-input{
+ /*   background-color: white; */
+    width: 25vw;
+    height: 8vh;
+    position: relative;
+    left: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-header{
+    width: 80%;
+    height: 60%;
+    color: white;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+.input-header::placeholder{
+    color: white;
+}
+
+.header-icon-buscar{
+    width: 25px;
+    height: 25px;
+}
+
+.imagem-container-principal{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.container-section-principal{
+    width: 100%;
+    height:100vh;
+    background-color: violet;
+}
+
+.container-informacoes{
+    width: 30%;
+    height: 55vh;
+    /* background-color:bisque; */
+    position: relative;
+    bottom: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container-informacoes img{
+    width:60%;
+    height: 15vh;
+}
+
+.container-informacoes-filme{
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    /* background-color: brown; */
+    justify-content: space-evenly;
+}
+
+.classificacao-imagem{
+    width: 4vw;
+    height: 5vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.descricao-filme{
+    width: 80%;
+    height: 13vh;
+    font-size: 0.75em;
+    /* background-color: cyan; */
+}
+
+.cotainer-pricipal-buttons{
+    width: 80%;
+    height: 13vh;
+    /* background-color: green; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.buttonPlay{
+    background-color:red;
+    color:white;
+    width: 10vw;
+    height: 8vh;
+    font-size: 1.2em;
+    border: none;
+}
+
+.buttonMyList{
+    background-color: transparent;
+    border-color: white;
+    color:white;
+    width: 10vw;
+    height: 8vh;
+    font-size: 1.2em;
+
+}
